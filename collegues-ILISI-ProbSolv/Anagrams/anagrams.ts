@@ -4,7 +4,11 @@ function anagrams(arrStr:string[]):any
     
     arrStr.forEach((item)=> {
         
-        const splitSortedStr = item.split('').sort().join('');
+        const splitSortedStr = item.toLowerCase()
+                                    .split('')
+                                    .sort()
+                                    .join('');
+                                    
         // console.log(item.split('').sort().join(''))
         const arrValue = (map.get(splitSortedStr)) || [];
         arrValue.push(item);
@@ -14,7 +18,7 @@ function anagrams(arrStr:string[]):any
     return Array.from(map.values());
 }
 
-console.log(anagrams(["stop", "opts" , "optz"]))
+console.log(anagrams(["eat", "tea" , "Tan", "ate", "nat", "bat"]))
 
 //     const contientUn = caracteres.some(c => str.includes(c));
 // console.log(contientUn); // true (contient 'o', 'u', 'e')
