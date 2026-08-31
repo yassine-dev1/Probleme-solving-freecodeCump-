@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "Solution",
+      "projectName": "freecodeCamp_PSolving_ccecd78f"
+    },
+    {
+      "type": "java",
       "name": "Anagrams",
       "request": "launch",
       "mainClass": "Anagrams",
