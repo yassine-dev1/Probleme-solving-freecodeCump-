@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Anagrams",
+      "request": "launch",
+      "mainClass": "Anagrams",
+      "projectName": "freecodeCamp_PSolving_ccecd78f"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
