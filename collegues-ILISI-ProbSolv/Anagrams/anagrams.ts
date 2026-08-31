@@ -19,11 +19,3 @@ function anagrams(arrStr:string[]):any
 }
 
 console.log(anagrams(["eat", "tea" , "Tan", "ate", "nat", "bat"]))
-
-//     const contientUn = caracteres.some(c => str.includes(c));
-// console.log(contientUn); // true (contient 'o', 'u', 'e')
-
-// // Vérifier si TOUS les caractères sont présents
-// const contientTous = caracteres.every(c => str.includes(c));
-// console.log(contientTous); // false (manque 'a', 'i')
-// }
