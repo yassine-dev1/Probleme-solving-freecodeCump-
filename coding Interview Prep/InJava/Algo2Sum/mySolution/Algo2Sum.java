@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 public class Algo2Sum {
 
-    public int[] twoSum(int[] nums, int target) {
+    public int[] twoSum2(int[] nums, int target) {
         HashMap<Integer, Integer> numMap = new HashMap<>();
 
         for (int idx = 0; idx < nums.length; idx++) {
