@@ -5,6 +5,20 @@
       "type": "java",
       "name": "Solution",
       "request": "launch",
+      "mainClass": "leetcode.longestPalindromic.mySolution.Solution",
+      "projectName": "freecodeCamp_PSolving_ccecd78f"
+    },
+    {
+      "type": "java",
+      "name": "LongestSubstring",
+      "request": "launch",
+      "mainClass": "leetcode.longestSubstring.mySolution.LongestSubstring",
+      "projectName": "freecodeCamp_PSolving_ccecd78f"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
       "mainClass": "Solution",
       "projectName": "freecodeCamp_PSolving_ccecd78f"
     },
