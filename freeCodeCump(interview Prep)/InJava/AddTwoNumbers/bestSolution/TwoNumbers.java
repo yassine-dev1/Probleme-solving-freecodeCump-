@@ -1,13 +1,13 @@
 // 1. La définition de la structure du Nœud (souvent fournie par la plateforme)
-public class ListNode {
+ class ListNode {
     int val;
     ListNode next;
     ListNode() {}
-    ListNode(int val) { this.val = val; }
+    ListNode(int val) { this.val = val; this.next=null; }
     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
 
- class Solution {
+ public class TwoNumbers {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         // 2. Le "Dummy Head" (Tête factice) : une astuce géniale pour 
@@ -42,5 +42,33 @@ public class ListNode {
 
         // On retourne la suite de la liste, en ignorant notre faux premier nœud (dummyHead)
         return dummyHead.next;
+    }
+
+    public static void main(String[] args) {
+
+        ListNode list1 = new ListNode(9);
+        ListNode list11 = new ListNode(9);
+        ListNode list12 = new ListNode(9);
+        ListNode list13 = new ListNode(9);
+
+        ListNode list2 = new ListNode(9);
+        ListNode list21 = new ListNode(9);
+        ListNode list22 = new ListNode(9);
+
+        list1.next=list11;
+        list11.next=list12;
+        list12.next=list13;
+
+        list2.next=list21;
+        list21.next=list22;
+
+        TwoNumbers sol = new TwoNumbers() ;
+        ListNode list = sol.addTwoNumbers(list1, list2);
+        while(list != null )
+        {
+           System.out.println("val :"+ list.val); 
+           list = list.next ;
+        }
+        
     }
 }
