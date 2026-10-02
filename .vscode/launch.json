@@ -5,6 +5,27 @@
       "type": "java",
       "name": "Solution",
       "request": "launch",
+      "mainClass": "leetcode.integerToRoman.Solution",
+      "projectName": "freecodeCamp_PSolving_ccecd78f"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "leetcode.MergeIntervals.MySolution.Solution",
+      "projectName": "freecodeCamp_PSolving_ccecd78f"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "leetcode.zigzagPattern.mySolution.Solution",
+      "projectName": "freecodeCamp_PSolving_ccecd78f"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
       "mainClass": "leetcode.longestPalindromic.mySolution.Solution",
       "projectName": "freecodeCamp_PSolving_ccecd78f"
     },
