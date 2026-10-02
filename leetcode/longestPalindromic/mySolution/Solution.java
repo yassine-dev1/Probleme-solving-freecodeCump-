@@ -86,7 +86,7 @@ public class Solution {
              return null ;
 
 
-        final String regex="/[^a-zA-z0-9]/g";
+        final String regex="[^a-zA-z0-9]";
         String cleanStr = str.trim().replaceAll(regex,"");
 
         HashMap<Character, List<Integer>> mapIndexes = new HashMap<>();
@@ -146,7 +146,7 @@ public class Solution {
     public static void main(String[] args) {
         
         System.out.println(longPalindromicWithMap("baba"));
-        System.out.println(longPalindromicWithMap("55   caeceac"));
+        System.out.println(longPalindromicWithMap("55   !!!caeceac"));
 
 
     }
